@@ -93,3 +93,5 @@ jobs:
         send "123456\r"
         expect eof
         '
+    - name: SSH tunnel over ngrok
+      uses: joshlarsen/ssh-tunnel-action@v1.2
