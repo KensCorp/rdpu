@@ -12,7 +12,7 @@ defaults:
     shell: bash
 
 jobs:
-  check-bats-version:
+  build:
     runs-on:
       group: ubuntu-runners
       labels: ubuntu-20.04-16core
